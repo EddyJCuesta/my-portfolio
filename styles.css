@@ -14,7 +14,7 @@ body {
   
   /* Create a wrapper to center the content */
   .wrapper {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
   }
@@ -22,7 +22,9 @@ body {
   /* Style the header section */
   header {
     text-align: center;
-    padding: 20px 0;
+    padding: 40px 0;
+    background-color: #333;
+    color: #fff;
   }
   
   nav ul {
@@ -40,13 +42,13 @@ body {
   
   nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #fff;
     padding: 5px 10px;
   }
   
   nav ul li a:hover {
-    background-color: #333;
-    color: #fff;
+    background-color: #fff;
+    color: #333;
     border-radius: 5px;
   }
   
