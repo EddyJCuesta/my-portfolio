@@ -5,3 +5,189 @@ html { box-sizing: border-box;}
 *, *:before, *:after {box-sizing: inherit}
 
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Create a wrapper to center the content */
+  .wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style the header section */
+  header {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  header div {
+    margin-top: 40px;
+  }
+  
+  header p {
+    font-size: 20px;
+  }
+  
+  header h1 {
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
+  /* Style the main content section */
+  main {
+    padding: 20px 0;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  section h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  section p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-right: 10px;
+  }
+  
+  /* Style the project cards */
+  section div {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  section div h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  section div h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  section div p {
+    margin-bottom: 20px;
+  }
+  
+  /* Style the footer section */
+  footer {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  footer h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  footer ul li {
+    margin-right: 10px;
+  }
+  
+  footer p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  footer form {
+    margin-top: 20px;
+  }
+  
+  footer form label {
+    font-weight: bold;
+  }
+  
+  footer form input,
+  footer form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  footer form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  footer form input[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  footer p:last-child {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
