@@ -6,6 +6,8 @@ html { box-sizing: border-box;}
 
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
 
+/* hot pink - #ff1c50 */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -46,7 +48,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #fff;
+    background-color:#ff1c50;
     color: #333;
     border-radius: 5px;
 }
@@ -72,11 +74,15 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
+.cuesta{
+  color: #ff1c50;
+}
+
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #fff;
-    color: #333;
+    background-color:#ff1c50;
+    color: #fff;
     text-decoration: none;
     border-radius: 5px;
 }
@@ -99,6 +105,7 @@ nav ul li a:hover {
     align-items: center;
     justify-content: center;
     height: 50vh;
+    background: #333;
 }
 
 .skills ul {
@@ -120,11 +127,13 @@ nav ul li a:hover {
 .skills li i {
   font-size: 48px;
   margin: 0px 20.5px 10px 20.5px;
+  color: #ff1c50;
 }
 
 .skills li span {
   font-size: 16px;
   text-align: center;
+  color: #ff1c50;
 }
 
 section .content {
@@ -136,11 +145,17 @@ section h2 {
     font-size: 6rem;
     margin-bottom: 10px;
     text-align: center;
+    color: #333;
 }
 
 .aboutMe p {
     font-size: 16px;
     line-height: 1.5;
+    color: #333;
+}
+
+.skills h2 {
+  color: #fff;
 }
 
 ul {
@@ -178,7 +193,7 @@ ul li {
   section .viewBtn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #333;
+    background-color:#ff1c50;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;

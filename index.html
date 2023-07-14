@@ -11,34 +11,37 @@
           
 </head>
 <body>
-    <header class="wrapper">
-       <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav> 
-        <div class="hello">
-            <p>Hello, my name is</p>
-            <h1>Eddy Cuesta</h1>
-            <p>I'am a Web Developer</p>
-            <a href="#" class="btn">get in touch</a>
+    <header>
+        <div class="wrapper">
+           <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav> 
+            <div class="hello">
+                <p>Hello, my name is</p>
+                <h1>Eddy <span class="cuesta">Cuesta</span></h1>
+                <p>I'am a Web Developer</p>
+                <a href="#" class="btn">get in touch</a>
+            </div> 
         </div>
+       
     </header>
-    <main class="wrapper">
+    <main>
     <!-- THIS IS THE ABOUT ME SECTION -->
-    <section class="aboutMe">
+    <section class="aboutMe wrapper">
         <div class="content">
-            <h2>about me</h2>
+            <h2>about <span class="cuesta">me</span></h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, at distinctio temporibus itaque atque sunt soluta vitae asperiores fugiat qui quasi optio, nihil debitis cum, explicabo rerum alias totam saepe eos nisi quaerat sint. Cumque laborum iste officiis illum ut.</p>
         </div>
         
     </section>
     <!-- THIS IS THE SKILLS SECTION -->
     <section class="skills">
-        <div class="content">
+        <div class="content wrapper">
            <h2>skills</h2>
             <ul>
                 <li>
@@ -68,7 +71,8 @@
     </section>
     <!-- THIS IS THE PROJECT SECTION -->
     <section>
-        <h2>projects</h2>
+        <div class="wrapper">
+            <h2>projects</h2>
         <div>
             <img src="" alt="">
             <h3>project title here</h3>
@@ -94,6 +98,8 @@
             <a href="#" class="viewBtn">view code</a>  
         </div>
     </section>
+        </div>
+        
     </main>
     <footer class="wrapper">
         <h2>get in touch</h2>
