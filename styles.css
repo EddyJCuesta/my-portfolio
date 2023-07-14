@@ -16,7 +16,7 @@ body {
   .wrapper {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    width: 70%;
   }
   
   /* Style the header section */
@@ -28,7 +28,7 @@ header {
 
 nav ul {
     list-style-type: none;
-    padding: 0;
+    padding-top: 20px;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -85,44 +85,77 @@ nav ul li a:hover {
     background-color: #555;
 }
   /* Style the main content section */
-  main {
-    padding: 20px 0;
-  }
-  
-  section {
-    margin-bottom: 40px;
-  }
-  
-  section h2 {
-    font-size: 30px;
+  .aboutMe {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+.skills {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+.skills ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.skills li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.skills li i {
+  font-size: 48px;
+  margin: 0px 20.5px 10px 20.5px;
+}
+
+.skills li span {
+  font-size: 16px;
+  text-align: center;
+}
+
+section .content {
+    text-align: center;
+    max-width: 800px;
+}
+
+section h2 {
+    font-size: 6rem;
     margin-bottom: 10px;
     text-align: center;
-  }
-  
-  .aboutMe {
-    text-align: center;
-  }
-  
-  section p {
+}
+
+.aboutMe p {
     font-size: 16px;
     line-height: 1.5;
-  }
-  
-  ul {
+}
+
+ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
     margin: 0;
     padding: 0;
-  }
-  
-  ul li {
+}
+
+ul li {
     margin-right: 10px;
-  }
-  
+}
   /* Style the project cards */
   section div {
-    border: 1px solid #ccc;
     padding: 20px;
     border-radius: 5px;
     margin-bottom: 20px;
