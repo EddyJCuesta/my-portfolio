@@ -205,14 +205,15 @@ ul li {
   
   /* Style the footer section */
   footer {
-    background-color: #f5f5f5;
+    background:#333;
     padding: 40px 0;
     text-align: center;
   }
   
   footer h2 {
-    font-size: 30px;
+    font-size: 6rem;
     margin-bottom: 20px;
+    color: #fff;
   }
   
   footer ul {
@@ -226,11 +227,13 @@ ul li {
   
   footer ul li {
     margin-right: 10px;
+    color: #ff1c50;
   }
   
   footer p {
     font-size: 16px;
     line-height: 1.5;
+    color: #fff;
   }
   
   footer form {
@@ -239,20 +242,23 @@ ul li {
   
   footer form label {
     font-weight: bold;
+    color: #fff;
   }
   
   footer form input,
   footer form textarea {
-    width: 100%;
+    width: 60%;
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
+    border: none;
   }
   
   footer form input[type="submit"] {
-    background-color: #333;
+    background-color:#ff1c50;
     color: #fff;
     cursor: pointer;
+    width: 20%;
   }
   
   footer form input[type="submit"]:hover {
