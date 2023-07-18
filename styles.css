@@ -74,6 +74,10 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+}
+
 .cuesta{
   color: #ff1c50;
 }
@@ -228,6 +232,7 @@ ul li {
   footer ul li {
     margin-right: 10px;
     color: #ff1c50;
+    font-size: 1.5rem;
   }
   
   footer p {
