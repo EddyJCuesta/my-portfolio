@@ -176,13 +176,17 @@ ul li {
   /* Style the project cards */
 
   img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
   }
+
+  .projectContainer {
+    display: flex;
+  }
+
   section div {
     padding: 20px;
     border-radius: 5px;
-    margin-bottom: 20px;
   }
   
   section div h3 {
