@@ -1,6 +1,6 @@
 function typeWriterEffect() {
     const elements = document.getElementsByClassName('typewriter-effect');
-    const typingSpeed = 100; // Adjust the typing speed (in milliseconds)
+    const typingSpeed = 80; // Adjust the typing speed (in milliseconds)
     const delayBetweenElements = 1000; // Adjust the delay between elements (in milliseconds)
 
     function type(index) {
