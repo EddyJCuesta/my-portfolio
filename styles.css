@@ -26,6 +26,7 @@ header {
     text-align: center;
     background-color: #333;
     color: #fff;
+    height: 100vh;
 }
 
 nav ul {
@@ -52,6 +53,25 @@ nav ul li a:hover {
     color: #333;
     border-radius: 5px;
 }
+
+/* ... (existing CSS styles) ... */
+
+/* Add CSS rules for the navbar */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333; 
+  padding: 10px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  z-index: 100;
+}
+
+main {
+  padding-top: 70px; 
+}
+
 
 .hello {
     max-width: 1200px;
