@@ -275,7 +275,7 @@ ul li {
     margin-bottom: 20px;
   }
   
-  footer ul li {
+  footer ul li .fa-brands, .fa-solid{
     margin-right: 10px;
     color: #ff1c50;
     font-size: 1.5rem;
