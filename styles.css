@@ -255,9 +255,12 @@ ul li {
   
   /* Style the footer section */
   footer {
-    background:#333;
-    padding: 40px 0;
+    background: #333;
     text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   
   footer h2 {
@@ -275,7 +278,8 @@ ul li {
     margin-bottom: 20px;
   }
   
-  footer ul li .fa-brands, .fa-solid{
+  footer ul li .fa-brands,
+  .fa-solid {
     margin-right: 10px;
     color: #ff1c50;
     font-size: 1.5rem;
@@ -306,7 +310,7 @@ ul li {
   }
   
   footer form input[type="submit"] {
-    background-color:#ff1c50;
+    background-color: #ff1c50;
     color: #fff;
     cursor: pointer;
     width: 20%;
@@ -316,8 +320,23 @@ ul li {
     background-color: #555;
   }
   
+  /* Set the flex container to take up all available space */
+  footer .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+  }
+  
+  /* Align the content to the bottom of the flex container */
   footer p:last-child {
-    margin-top: 20px;
+    margin-top: 50px;
     font-size: 14px;
   }
+  
+  /* Add spacing between the two <p> tags */
+  footer p:first-child {
+    margin-bottom: 20px;
+  }
+  
   
