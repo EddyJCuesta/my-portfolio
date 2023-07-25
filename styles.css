@@ -320,7 +320,6 @@ ul li {
     background-color: #555;
   }
   
-  /* Set the flex container to take up all available space */
   footer .wrapper {
     display: flex;
     flex-direction: column;
@@ -328,15 +327,119 @@ ul li {
     flex: 1;
   }
   
-  /* Align the content to the bottom of the flex container */
   footer p:last-child {
     margin-top: 50px;
     font-size: 14px;
   }
   
-  /* Add spacing between the two <p> tags */
   footer p:first-child {
     margin-bottom: 20px;
   }
-  
-  
+
+/* Max-width 1200px */
+@media only screen and (max-width: 1200px) {
+  .wrapper {
+    width: 80%;
+  }
+
+  .hello h1 {
+    font-size: 6rem;
+  }
+
+}
+
+/* Max-width 768px */
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    width: 90%;
+  }
+
+  .hello h1 {
+    font-size: 4rem;
+  }
+
+  .hello p {
+    font-size: 16px;
+  }
+}
+
+/* Max-width 320px */
+@media only screen and (max-width: 320px) {
+  .wrapper {
+    width: 95%;
+  }
+
+  .hello h1 {
+    font-size: 3rem;
+  }
+
+  .hello p {
+    font-size: 14px;
+  }
+
+  header {
+    height: auto;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 5px 0;
+  }
+
+  .aboutMe,
+  .skills {
+    height: auto;
+  }
+
+  .skills ul {
+    justify-content: space-between;
+  }
+
+  .skills li {
+    width: 30%;
+    margin-right: 0;
+  }
+
+  section .content {
+    max-width: 100%;
+  }
+
+  section h2 {
+    font-size: 4rem;
+  }
+
+  section div {
+    padding: 10px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .projectContainer {
+    flex-direction: column;
+  }
+
+  .projectContainer div {
+    margin: 20px 0;
+  }
+
+  .projectContainer div h3 {
+    font-size: 20px;
+  }
+
+  .projectContainer div h4 {
+    font-size: 14px;
+  }
+
+  .btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+}
